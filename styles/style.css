@@ -61,12 +61,17 @@ h1, h2, h3, p, ul {
   color: #f5f5f5;
 }
 
+.header__menu-link:hover {
+  transition: 0.2s;
+  opacity: 0.7;
+}
+
 /* Обложка */
 
 .cover {
   min-height: 221px;
   padding: 7px 20px 37px;
-  background-image: url(/images/cover.svg);
+  background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
   background-size: 339px 249px;
   background-position: right top;
@@ -195,6 +200,11 @@ h1, h2, h3, p, ul {
   color: #131313;
 }
 
+.card__author-photo {
+  border-radius: 50px;
+  width: 100px;
+}
+
 .card__author-name {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -244,6 +254,10 @@ h1, h2, h3, p, ul {
 }
 
 .footer__item {
+  list-style: none;
+}
+
+.footer__item-link {
   text-decoration: none;
   color: #f5f5f5;
 }
